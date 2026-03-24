@@ -120,19 +120,19 @@ frontend/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](screenshots/home.png)
+![Home](Screenshots/home.png)
 
 ### 🏢 Company Selection
-![Company](screenshots/company.png)
+![Company](Screenshots/company.png)
 
 ### 📊 Prediction Output
-![Prediction](screenshots/prediction.png)
+![Prediction](Screenshots/prediction.png)
 
 ### 📈 Charts & Trends
-![Chart](screenshots/chart.png)
+![Chart](Screenshots/chart.png)
 
 ### 🤖 Sentiment Analysis
-![Sentiment](screenshots/Sentiment.png)
+![Sentiment](Screenshots/Sentiment.png)
 
 ### ✅ Working Demo
-![Working](screenshots/working.png)
+![Working](Screenshots/working.png)
