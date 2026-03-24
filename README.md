@@ -114,3 +114,25 @@ frontend/
 - Evaluation reports saved in `backend/reports/{COMPANY}_eval.json`
 - Frontend works in demo mode if backend is offline
 - **Not financial advice** — for educational/research purposes only
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](screenshots/home.png)
+
+### 🏢 Company Selection
+![Company](screenshots/company.png)
+
+### 📊 Prediction Output
+![Prediction](screenshots/prediction.png)
+
+### 📈 Charts & Trends
+![Chart](screenshots/chart.png)
+
+### 🤖 Sentiment Analysis
+![Sentiment](screenshots/Sentiment.png)
+
+### ✅ Working Demo
+![Working](screenshots/working.png)
