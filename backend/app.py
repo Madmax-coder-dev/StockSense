@@ -23,6 +23,19 @@ import yfinance as yf
 
 from config import NIFTY50_TICKERS, MODEL_DIR
 from data_pipeline import get_realtime_price
+import torch
+
+# FORCE all models to load on CPU
+torch.set_default_tensor_type(torch.FloatTensor)
+
+# Monkey patch torch.load to always use CPU
+_original_load = torch.load
+
+def cpu_load(*args, **kwargs):
+    kwargs['map_location'] = torch.device('cpu')
+    return _original_load(*args, **kwargs)
+
+torch.load = cpu_load
 
 # ─────────────────────────────────────────────────────────────
 # App Init
